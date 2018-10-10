@@ -1,0 +1,7 @@
+在eclipse导入mybatisbaking项目，自行查看4个架包等是否存在
+修改genarator.xml里数据库连接信息和数据表名信息
+运行StartServer.java文件
+刷新mybatisbaking项目，可以看到在com.mapper和com.pojo里面出现对应数据表的类
+
+【注意】
+建议将生成的类放在自己的项目里 ，而不是直接使用该项目编写后期代码。原因：避免冲突
